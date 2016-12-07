@@ -8,6 +8,7 @@ get_header();
      echo ale_get_meta('descr1');
  }
 
+
 echo "Home page";
 
 $custom_query = new WP_Query( array( 'post_type' => 'services','posts_per_page'=>'1' ) );
